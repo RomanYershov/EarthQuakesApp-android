@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EarthquakesApp</string>
+    <string name="image_desctiption">Фото местности</string>
+</resources>

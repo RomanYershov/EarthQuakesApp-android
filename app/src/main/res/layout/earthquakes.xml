@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/eart_round_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:contentDescription="@string/image_desctiption"
+            android:src="@drawable/round"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3.4" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/earth_place_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/low_margin"
+        android:layout_marginStart="@dimen/low_margin"
+        android:layout_marginTop="@dimen/low_margin"
+        android:layout_toEndOf="@id/eart_round_iv"
+        android:layout_toLeftOf="@id/eart_round_iv"
+        android:layout_toRightOf="@id/eart_round_iv"
+        android:text="Place" />
+
+    <TextView
+        android:id="@+id/earth_cunami_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/earth_place_tv"
+        android:layout_toEndOf="@id/eart_round_iv"
+        android:layout_toLeftOf="@id/eart_round_iv"
+        android:layout_toRightOf="@id/eart_round_iv"
+        android:layout_marginStart="@dimen/low_margin"
+        android:layout_marginLeft="@dimen/low_margin"
+        android:text="Cunami"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/time_margint"
+        android:layout_marginRight="@dimen/time_margint"
+        android:text="time" />
+
+
+</RelativeLayout>
