@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <FrameLayout
         android:id="@+id/eart_round_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/low_margin"
         >
         <ImageView
             android:id="@+id/ea_img_iv"
@@ -33,7 +34,7 @@
         android:layout_toEndOf="@id/eart_round_iv"
         android:layout_toLeftOf="@id/eart_round_iv"
         android:layout_toRightOf="@id/eart_round_iv"
-        android:text="Place" />
+        />
 
     <TextView
         android:id="@+id/earth_cunami_tv"
@@ -45,7 +46,6 @@
         android:layout_toRightOf="@id/eart_round_iv"
         android:layout_marginStart="@dimen/low_margin"
         android:layout_marginLeft="@dimen/low_margin"
-        android:text="Cunami"
         />
 
     <TextView
